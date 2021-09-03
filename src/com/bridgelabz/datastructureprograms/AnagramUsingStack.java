@@ -1,8 +1,10 @@
 package com.bridgelabz.datastructureprograms;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
 import com.bridgelabz.linkedlist.MyStack;
+
 public class AnagramUsingStack {
 	private static ArrayList<Integer> printPrimeNumber(int maxLimit) {
 		MyStack<Integer> myStack = new MyStack<Integer>();
@@ -55,6 +57,7 @@ public class AnagramUsingStack {
 		for(int i=0;i<primeObject.size();i++) {
 			System.out.print(primeObject.get(i)+" ");
 		}
+		System.out.println();
 		anagramChecker(primeObject);
 		
 	}
